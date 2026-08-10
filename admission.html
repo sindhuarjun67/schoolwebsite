@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form - St Mary's Convent School</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>St Mary's Convent School</h1>
+        <h2>Admission Form</h2>
+    </header>
+
+    <section id="admission">
+        <h2>Student Admission Form</h2>
+
+        <form action="thankyou.html">
+
+            <label>Student Name:</label><br>
+            <input type="text" placeholder="Enter Student Name" required><br><br>
+
+            <label>Date of Birth:</label><br>
+            <input type="date" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Other
+            <br><br>
+
+            <label>Class Applying For:</label><br>
+            <select required>
+                <option>Select Class</option>
+                <option>Class 1</option>
+                <option>Class 2</option>
+                <option>Class 3</option>
+                <option>Class 4</option>
+                <option>Class 5</option>
+                <option>Class 6</option>
+                <option>Class 7</option>
+                <option>Class 8</option>
+                <option>Class 9</option>
+                <option>Class 10</option>
+                <option>Class 11</option>
+                <option>Class 12</option>
+            </select>
+            <br><br>
+
+            <label>Parent Name:</label><br>
+            <input type="text" placeholder="Enter Parent Name" required><br><br>
+
+            <label>Phone Number:</label><br>
+            <input type="tel" placeholder="Enter Phone Number" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" placeholder="Enter Email Address" required><br><br>
+
+            <label>Address:</label><br>
+            <textarea rows="4" placeholder="Enter Address"></textarea><br><br>
+
+            <input type="submit" value="Submit Application">
+            
+            <button type="submit">Submit Application</button>
+
+        </form>
+
+        <br>
+
+        <a href="index.html" class="btn">← Back to Home</a>
+
+    </section>
+
+</body>
+</html>
